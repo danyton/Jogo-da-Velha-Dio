@@ -1,0 +1,48 @@
+body {
+    background-image: url(./imagens/tic-tac-dedo-do-pé-isolado-no-branco-1412235.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+main {
+    text-align: center;
+    background-color: aquamarine;
+    color: rgb(235, 136, 6);
+    width: 50%; /* define a largura desejada */
+    border-radius: 35%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+.quadrado {
+    text-align: center;
+    width: 40px;
+    background: #eee;
+    display: inline-block;
+    padding: 35px;
+    font-size: 40px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 30px;
+    color: yellowgreen;
+}
+
+.jogador,
+.vencedor {
+    font-size: 40px;
+    margin: 5px;
+}
+
+button {
+    font-size: 35px;
+    background-color: rgb(235, 136, 6);
+    color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 5px;
+    width: 40%;
+    height: 30%;
+}
