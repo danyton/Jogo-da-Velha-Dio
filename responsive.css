@@ -1,0 +1,31 @@
+
+  @media only screen and (max-width: 600px) {
+    main {
+      width: 90%;
+      border-radius: 30px;
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 40px;
+    }
+  
+    .quadrado {
+      width: 30px;
+      height: 40px;
+      font-size: 40px;
+      padding: 25px;
+    }
+  
+    .jogador,
+    .vencedor {
+      font-size: 30px;
+    }
+  
+    button {
+      font-size: 25px;
+      width: 150px;
+      height: 25%;
+    }
+  }
+  

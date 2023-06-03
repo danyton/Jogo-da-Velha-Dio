@@ -8,22 +8,24 @@ main {
     text-align: center;
     background-color: aquamarine;
     color: rgb(235, 136, 6);
-    width: 50%; /* define a largura desejada */
-    border-radius: 35%;
+    width: 400px;
+    border-radius: 180px 50px 180px 50px;
     margin: auto;
+    padding: 20px;
 }
 
 h1 {
-    font-size: 65px;
+    font-size: 60px;
 }
 
 .quadrado {
     text-align: center;
     width: 40px;
-    background: #eee;
+    height: 50px;
+    background: #d4d4bf;
     display: inline-block;
     padding: 35px;
-    font-size: 40px;
+    font-size: 60px;
     margin: 5px;
     cursor: pointer;
     border-radius: 30px;
@@ -34,6 +36,8 @@ h1 {
 .vencedor {
     font-size: 40px;
     margin: 5px;
+
+    
 }
 
 button {
@@ -43,6 +47,7 @@ button {
     border-radius: 20px;
     cursor: pointer;
     margin: 5px;
-    width: 40%;
+    width: 200px;
     height: 30%;
+    padding: 5px;
 }
