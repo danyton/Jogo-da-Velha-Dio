@@ -18,6 +18,11 @@ h1 {
     font-size: 60px;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .quadrado {
     text-align: center;
     width: 40px;
